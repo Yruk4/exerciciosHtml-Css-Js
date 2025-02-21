@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lata Viagens</title>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 LATA LTDA | Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="https://facebook.com"><img src="facebook.png" alt="Facebook"></a>
+                <a href="https://instagram.com"><img src="instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com"><img src="twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <h1><strong> LATA VIAGENS</h1></strong>
+    <h4><i>
+        Voe com segurança, com preços que cabem no seu bolso!
+    </h4></i>
+
+</head>
+<body>
+    
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="glow-on-hover">Conheça nossas condições!</label>
+
+    <div class="listas-container">
+        <h2>ESCOLHA SEU PRÓXIMO DESTINO</h2>
+        <ul>
+        <strong><h4>Europa</h4></strong>
+            <li>Paris, França  – Ideal para romance, cultura e gastronomia. Visite a Torre Eiffel, o Louvre e faça um passeio pelo Rio Sena.</li>
+            <li>Roma, Itália  – História e comida incríveis! Explore o Coliseu, a Fontana di Trevi e o Vaticano.</li>
+            <li>Santorini, Grécia – Paisagens deslumbrantes com casas brancas e mar azul. Perfeito para relaxar e curtir o pôr do sol em Oia.</li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg/250px-Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg.png" alt="Europa" style="width: 10%; height: auto;">
+            <hr>
+        </ul>
+
+        <ul>
+            <strong><h4>America</h4></strong>
+            <li>Nova York, EUA  – Cidade vibrante com a Times Square, Broadway, Estátua da Liberdade e Central Park.</li>
+            <li>Rio de Janeiro, Brasil  – Praias icônicas como Copacabana e Ipanema, além do Cristo Redentor e Pão de Açúcar.</li>
+            <li>Cancún, México  – Paraíso tropical com praias incríveis, resorts all-inclusive e passeios a Chichén Itzá.</li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Americas_%28orthographic_projection%29.svg/1200px-Americas_%28orthographic_projection%29.svg.png" alt="América" style="width: 10%; height: auto;">
+            <hr>
+        </ul>
+        <ul>
+            <strong><h4>Ásia</h4></strong>
+            <li>Tóquio, Japão  – Mistura de modernidade e tradição, com templos, tecnologia de ponta e a gastronomia japonesa autêntica.</li>
+            <li>Bali, Indonésia  – Ilhas paradisíacas com praias, templos e cachoeiras. Um ótimo destino para relaxar e curtir a natureza.</li>
+            <li>Bangkok, Tailândia  – Vida noturna agitada, templos deslumbrantes e comida de rua incrível, como o famoso Pad Thai.</li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Asia_%28orthographic_projection%29.svg/250px-Asia_%28orthographic_projection%29.svg.png" alt="Ásia" style="width: 10%; height: auto;">
+            
+        </ul>
+
+
+        <label for="toggle" class="fechar">Fechar</label>
+
+
+    
+</body>
+</html>
+
+<style>
+
+     footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        width: 100%;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .social-icons img {
+        width: 30px;
+        margin: 0 10px;
+    }
+
+.fechar {
+            cursor: pointer;
+            color: rgb(245, 233, 233);
+            font-weight: bold;
+            font-size: 18px;
+            display: block;
+            margin-top: 10px;
+        }
+
+
+
+     label {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .listas-container {
+            display: none;
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgb(255, 255, 255);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            width: 65%;
+        }
+
+
+#toggle {
+            display: none;
+        }
+
+        #toggle:checked ~ .listas-container {
+            display: block;
+        }
+
+
+
+
+
+
+     body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+    .segundoFundo{
+        
+        max-width: 900px;
+        margin: 50px;
+        padding: 7%;
+        top:  20%;
+        left: 50%;
+        background-color: #fff;
+        border-radius: 00px;
+        text-align: center;
+    }
+
+    ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f0f0f0;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+
+
+
+
+    h1,h4{
+        text-align: center;
+        font-weight: 300;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        
+        
+    }
+    button{
+    position: static;
+    top:  20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    h1{
+        color: rgb(9, 63, 94);
+    }
+    h5{
+        padding-top: 1%;
+    }
+    body {
+    background-image:url(https://wallpapers.com/images/hd/planes-4k-ultra-hd-5e15uel63rznxn46.jpg);
+    }
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position:relative;
+    z-index: 0;
+    border-radius: 10px;
+    }
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+</style>
